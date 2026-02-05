@@ -1,0 +1,285 @@
+<!--
+  File: account-delete.html
+  Purpose: Google Play "Account deletion request URL" page
+  Host: GitHub Pages (e.g., https://suilch777.github.io/app-policies/account-delete.html)
+
+  ✅ What this page includes (per Google Play requirements):
+  - App/developer name
+  - Clear steps to request account deletion
+  - What data is deleted / what is retained + retention period
+  - Optional: partial data deletion guidance
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>계정 삭제 요청 안내 / Account Deletion — AllBackup(올백업)</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222;
+      --muted: #666;
+      --card: #f7f7f9;
+      --border: #e6e6ea;
+      --accent: #2f6feb;
+      --ok: #0a7a2f;
+      --warn: #b54708;
+    }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans KR", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 18px 40px;
+    }
+    header {
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 1.35rem;
+      margin: 0 0 6px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-right: 6px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    @media (min-width: 860px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    section {
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 14px;
+      padding: 16px 16px 14px;
+    }
+    h2 {
+      font-size: 1.05rem;
+      margin: 0 0 10px;
+    }
+    ul, ol {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+    li { margin: 6px 0; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .note {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: #fff;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .pill-ok {
+      color: var(--ok);
+      font-weight: 600;
+    }
+    .pill-warn {
+      color: var(--warn);
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .links {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .linkbtn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      font-size: 0.92rem;
+    }
+    .small {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">AllBackup (올백업)</span>
+      <span class="badge">Account Deletion</span>
+      <h1>계정 삭제 요청 안내 / Account Deletion Request</h1>
+      <p class="sub">
+        개발자(Developer): <strong>a.backup7799</strong>
+        <span class="small">· 마지막 업데이트(Last updated): 2026-02-05</span>
+      </p>
+      <div class="links">
+        <!-- 🔧 If your privacy policy filename differs, update the href. -->
+       
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- ===================== KOREAN ===================== -->
+      <section aria-label="Korean">
+        <h2>🇰🇷 한국어 안내</h2>
+
+        <p>
+          본 페이지는 <strong>AllBackup(올백업)</strong> 사용자가
+          <strong>계정 및 관련 데이터 삭제</strong>를 요청할 수 있는 방법을 안내합니다.
+        </p>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">1) 계정 삭제 요청 방법</h3>
+        <ol>
+          <li>
+            앱 내의 계정 삭제 기능을 이용할 경우:
+            <strong>[메뉴 &gt; 사용자정보 &gt; 회원탈퇴]</strong> 메뉴를 이용해 주세요.
+          </li>
+          <li>
+            또는 아래 이메일로 삭제 요청을 보내주세요:
+            <div class="note">
+              지원 이메일(Support Email): <span class="mono">a.backup7799@gmail.com</span><br />
+              제목 예시: <span class="mono">[올백업] 계정 삭제 요청</span><br />
+              본문에 포함할 정보:
+              <ul>
+                <li>가입에 사용한 전화번호(또는 사용자 식별 정보)</li>
+                <li>삭제 요청 사유(선택)</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">2) 삭제되는 데이터</h3>
+        <ul>
+          <li>사용자 계정 정보(예: 전화번호, 사용자 이름)</li>
+          <li>게시글 및 댓글(사용자가 작성한 콘텐츠)</li>
+          <li>알림 토큰(FCM 토큰 등 기기 식별 정보)</li>
+        </ul>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">3) 보관되는 데이터 및 보관 기간</h3>
+        <p class="small">
+          아래 데이터는 법적·운영 목적(부정 이용 방지, 서비스 안정성 유지 등)을 위해
+          <strong>최대 90일</strong>간 보관 후 자동 삭제될 수 있습니다.
+        </p>
+        <ul>
+          <li>서비스 이용 기록(최소한의 로그)</li>
+          <li>비정상 이용 방지를 위한 최소 기록</li>
+        </ul>
+        <p class="small">
+          <span class="pill-ok">보관 기간</span>: 최대 90일 (필요 시 단축될 수 있음)
+        </p>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">4) 계정 삭제 없이 일부 데이터 삭제</h3>
+        <p class="small">
+          사용자는 앱 내에서 작성한 게시글/일부 콘텐츠를 직접 삭제할 수 있습니다.
+          다만 계정 삭제 없이 별도의 “부분 삭제 요청 프로세스”는 제공되지 않을 수 있습니다.
+        </p>
+
+        <div class="note">
+          문의: <span class="mono">a.backup7799@gmail.com</span>
+        </div>
+      </section>
+
+      <!-- ===================== ENGLISH ===================== -->
+      <section aria-label="English">
+        <h2>🇺🇸 English</h2>
+
+        <p>
+          This page explains how users of <strong>AllBackup</strong> can request
+          <strong>account deletion and associated data deletion</strong>.
+        </p>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">1) How to request account deletion</h3>
+        <ol>
+          <li>
+            The in-app deletion feature is available:
+            <strong>Menu &gt; User info &gt; Delete account]</strong>.
+          </li>
+          <li>
+            Or email us to request deletion:
+            <div class="note">
+              Support Email: <span class="mono">a.backup7799@gmail.com</span><br />
+              Suggested subject: <span class="mono">[AllBackup] Account Deletion Request</span><br />
+              Please include:
+              <ul>
+                <li>The phone number used to sign up (or another identifier)</li>
+                <li>Reason for deletion (optional)</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">2) Data that will be deleted</h3>
+        <ul>
+          <li>Account information (e.g., phone number, user name)</li>
+          <li>User-generated content (posts and comments)</li>
+          <li>Notification token (e.g., FCM token / device identifier)</li>
+        </ul>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">3) Data that may be retained and retention period</h3>
+        <p class="small">
+          For legal and operational purposes (e.g., fraud prevention and service integrity),
+          the following data may be retained for up to <strong>90 days</strong> and then deleted automatically.
+        </p>
+        <ul>
+          <li>Minimal service usage logs</li>
+          <li>Minimum records for abuse prevention</li>
+        </ul>
+        <p class="small">
+          <span class="pill-ok">Retention period</span>: Up to 90 days (may be shorter depending on circumstances)
+        </p>
+
+        <h3 style="margin:14px 0 8px; font-size:1rem;">4) Partial deletion without deleting the account</h3>
+        <p class="small">
+          Users may delete certain content (such as posts) within the app.
+          However, a separate formal process to delete only part of the data without deleting the account
+          may not be provided.
+        </p>
+
+        <div class="note">
+          Contact: <span class="mono">a.backup7799@gmail.com</span>
+        </div>
+      </section>
+    </div>
+   
+  </div>
+</body>
+</html>
